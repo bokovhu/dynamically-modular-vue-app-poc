@@ -1,0 +1,15 @@
+{
+  "name": "plugin-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "core": "link:../core",
+    "css-loader": "^3.4.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js",
+    "serve": "webpack-dev-server --config webpack.dev.config.js",
+    "serve-with-backend": "webpack-dev-server --config webpack.dev-backend.config.js"
+  }
+}

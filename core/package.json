@@ -1,0 +1,35 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "apollo-boost": "^0.4.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
+    "css-loader": "^3.4.2",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^5.0.2",
+    "graphql": "^14.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "primeicons": "^2.0.0",
+    "primevue": "^1.0.2",
+    "vue": "^2.6.11",
+    "vue-apollo": "^3.0.3",
+    "vue-loader": "^15.8.3",
+    "vue-router": "^3.1.5",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.production.config.js",
+    "build-core": "webpack --config webpack.coredev.config.js",
+    "serve": "webpack-dev-server --config webpack.production.config.js",
+    "serve-core": "webpack-dev-server --config webpack.coredev.config.js"
+  }
+}
