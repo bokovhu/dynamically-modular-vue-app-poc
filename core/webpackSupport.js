@@ -89,10 +89,10 @@ const applyBase = config => {
     config.resolve = { ... (config.resolve || {}) }
     config.resolve.extensions = [... (config.resolve.extensions || [])]
     config.resolve.extensions.push('.js', '.vue', '.css')
-
+/*
     config.externals = { ... (config.externals || {}) }
     config.externals.vue = 'Vue'
-
+*/
     config.plugins = [... (config.plugins || [])]
     config.plugins.push(new VueLoaderPlugin())
 }

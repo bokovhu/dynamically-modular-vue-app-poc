@@ -1,6 +1,7 @@
 <template>
     <div>
         <p>Hello from core!</p>
+        <p>asdasd</p>
         <ul>
             <li v-for="route in routes" :key="route.path">
                 <router-link v-bind:to="route.path">{{route.meta.name}}</router-link>

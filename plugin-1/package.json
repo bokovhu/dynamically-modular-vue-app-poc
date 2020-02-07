@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "core": "link:../core",
-    "css-loader": "^3.4.2"
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2"
   },
   "scripts": {
     "build": "webpack --config webpack.production.config.js",
