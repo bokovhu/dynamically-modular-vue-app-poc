@@ -1737,8 +1737,28 @@ core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "core@link:../core":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
+  dependencies:
+    "@babel/core" "^7.8.4"
+    "@babel/preset-env" "^7.8.4"
+    apollo-boost "^0.4.7"
+    babel-loader "^8.0.6"
+    babel-plugin-transform-remove-strict-mode "^0.0.2"
+    css-loader "^3.4.2"
+    expose-loader "^0.7.5"
+    file-loader "^5.0.2"
+    graphql "^14.6.0"
+    html-webpack-plugin "^3.2.0"
+    primeicons "^2.0.0"
+    primevue "^1.0.2"
+    vue "^2.6.11"
+    vue-apollo "^3.0.3"
+    vue-loader "^15.8.3"
+    vue-router "^3.1.5"
+    vue-template-compiler "^2.6.11"
+    webpack "^4.41.5"
+    webpack-cli "^3.3.10"
+    webpack-dev-server "^3.10.3"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -5348,9 +5368,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
