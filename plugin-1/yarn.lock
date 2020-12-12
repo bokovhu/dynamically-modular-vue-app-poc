@@ -1737,8 +1737,28 @@ core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "core@link:../core":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
+  dependencies:
+    "@babel/core" "^7.8.4"
+    "@babel/preset-env" "^7.8.4"
+    apollo-boost "^0.4.7"
+    babel-loader "^8.0.6"
+    babel-plugin-transform-remove-strict-mode "^0.0.2"
+    css-loader "^3.4.2"
+    expose-loader "^0.7.5"
+    file-loader "^5.0.2"
+    graphql "^14.6.0"
+    html-webpack-plugin "^3.2.0"
+    primeicons "^2.0.0"
+    primevue "^1.0.2"
+    vue "^2.6.11"
+    vue-apollo "^3.0.3"
+    vue-loader "^15.8.3"
+    vue-router "^3.1.5"
+    vue-template-compiler "^2.6.11"
+    webpack "^4.41.5"
+    webpack-cli "^3.3.10"
+    webpack-dev-server "^3.10.3"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -2899,9 +2919,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 internal-ip@^4.3.0:
   version "4.3.0"
