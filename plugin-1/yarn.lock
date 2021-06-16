@@ -1737,8 +1737,28 @@ core-util-is@~1.0.0:
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
 "core@link:../core":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
+  dependencies:
+    "@babel/core" "^7.8.4"
+    "@babel/preset-env" "^7.8.4"
+    apollo-boost "^0.4.7"
+    babel-loader "^8.0.6"
+    babel-plugin-transform-remove-strict-mode "^0.0.2"
+    css-loader "^3.4.2"
+    expose-loader "^0.7.5"
+    file-loader "^5.0.2"
+    graphql "^14.6.0"
+    html-webpack-plugin "^3.2.0"
+    primeicons "^2.0.0"
+    primevue "^1.0.2"
+    vue "^2.6.11"
+    vue-apollo "^3.0.3"
+    vue-loader "^15.8.3"
+    vue-router "^3.1.5"
+    vue-template-compiler "^2.6.11"
+    webpack "^4.41.5"
+    webpack-cli "^3.3.10"
+    webpack-dev-server "^3.10.3"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -4036,9 +4056,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2:
   integrity sha512-LmeoohTpp/K4UiyQCwuGWlONxXamGzCMtFxLq4W1nZVGIQLYvMCJx3yAF9qyyuFpflABI9yVdtJAqbihOsCsJQ==
 
 postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.23, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.26"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
-  integrity sha512-IY4oRjpXWYshuTDFxMVkJDtWIk2LhsTlu8bZnbEJA4+bYT16Lvpo8Qv6EvDumhYRgzjZl489pmsY3qVgJQ08nA==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
